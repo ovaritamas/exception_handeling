@@ -1,3 +1,9 @@
+""""
+Írj egy programot, ami a felhasználótól három egész számot számot kér be egyesével, ezeket eltárolja egy listában, 
+majd a képernyőre kiírja a lista tartalmát! Ha a felhasználó nem számot ad meg, kapjon hibaüzenetet, és ismétlődjön meg a bekérés!
+
+"""
+
 while True:
     try:
         szam1 = int(input("Add meg az első számot: "))
