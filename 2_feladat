@@ -7,5 +7,5 @@ while True:
         szamok_listaja = [szam1, szam2, szam3]
         print(szamok_listaja)
         break
-    except ValueError:
+    except ValueError as e:
         print("Számot adj meg kérlek")
